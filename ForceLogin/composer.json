@@ -1,0 +1,30 @@
+{
+  "name": "phpstudios/force-login",
+  "description": "Using the Force Login extension, the store manager can disable the frontend page without logging in, so the customer has to log in to view the desired pages."
+,
+  "require": {
+      "php": ">=7.1.0",
+      "phpstudios/core": "1.0.*"
+  },
+  "type":"magento2-module",
+  "version": "1.0.0",
+  "license":[
+    "proprietary"
+  ],
+  "authors":[
+    {
+      "name" : "Support",
+      "email" : "techsupport@phpstudios.com",
+      "homepage" : "https://www.phpstudios.com",
+      "role" : "Developer"
+    }
+  ],
+  "autoload":{
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PHPStudios\\ForceLogin\\" : ""
+    }
+  }
+}

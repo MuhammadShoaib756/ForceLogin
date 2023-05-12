@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="PHPStudios_ForceLogin::menu"
+             title="Force Login"
+             module="PHPStudios_ForceLogin"
+             sortOrder="50"
+             resource="PHPStudios_ForceLogin::menu"
+             parent="PHPStudios_Core::phpstudios"
+        />
+        <add id="PHPStudios_ForceLogin::configuration"
+             title="Configuration"
+             module="PHPStudios_ForceLogin"
+             sortOrder="10"
+             action="adminhtml/system_config/edit/section/forcelogin"
+             resource="PHPStudios_ForceLogin::config"
+             parent="PHPStudios_ForceLogin::menu"
+        />
+    </menu>
+</config>
